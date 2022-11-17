@@ -1,2 +1,2 @@
 FROM traffmonetizer/cli:latest
-ENTRYPOINT ["./Cli"]
+ENTRYPOINT ["ls"]
