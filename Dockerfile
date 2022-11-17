@@ -1,5 +1,5 @@
 FROM alpine:3.17
-COPY --chmod=777 /tm.sh /app/tm.sh
+COPY --chmod=777 /tm.sh /tm.sh
 CMD ["/bin/sh"]
-WORKDIR /app
+WORKDIR /
 ENTRYPOINT ["./tm.sh"]
