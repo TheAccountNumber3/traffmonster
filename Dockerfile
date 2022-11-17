@@ -6,6 +6,5 @@ ENV ASPNETCORE_URLS=http://+:80 DOTNET_RUNNING_IN_CONTAINER=true DOTNET_SYSTEM_G
 ENV DOTNET_CLI_TELEMETRY_OPTOUT=1
 WORKDIR /app
 WORKDIR /app
-COPY /app/publish . # buildkit
 RUN /bin/sh -c rm *.pdb # buildkit
 ENTRYPOINT ["./Cli"]
