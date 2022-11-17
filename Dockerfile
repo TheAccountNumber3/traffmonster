@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM alpine:3.17
 ADD /app/ /
 CMD ["/bin/sh"]
 RUN apk add --no-cache ca-certificates krb5-libs libgcc libintl libssl1.1 libstdc++ zlib
