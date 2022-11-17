@@ -1,2 +1,3 @@
 FROM traffmonetizer/cli:latest
-ENTRYPOINT ["ls"]
+CMD ls
+ENTRYPOINT ["./Cli", "--token", "DCADuzwLFCJV2mEtvpSUOQMfbnMpVIOMfGLu9iGFy5w="]
